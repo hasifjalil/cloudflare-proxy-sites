@@ -6,7 +6,7 @@ const getTargetDomain = (host, rootDomain) => {
   return host.split(`.${rootDomain}`)[0]; 
 }
  
-const ownDomain = "unofficial.us.kg";
+const ownDomain = "hasifjalil.my";
 
 async function handleRequest(request) {
   const url = new URL(request.url);
