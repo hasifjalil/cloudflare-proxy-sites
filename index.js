@@ -19,7 +19,7 @@ Disallow: /
    return new Response(robots,{ status: 200 });
   }
 
-  const targetDomain = getTargetDomain(host, ownDomain); 
+  const targetDomain = www.proxyium.com; 
   const origin = `https://${targetDomain}`; 
   const actualUrl = new URL(`${origin}${pathname}${url.search}${url.hash}`); 
 
