@@ -14,7 +14,7 @@ Disallow: /
    return new Response(robots,{ status: 200 });
   }
 
-  const targetDomain = 'proxy.hasifjalil.workers.dev';
+  const targetDomain = 'www.proxyium.com';
   const origin = `https://${targetDomain}`; 
   const actualUrl = new URL(`${origin}${pathname}${url.search}${url.hash}`); 
 
